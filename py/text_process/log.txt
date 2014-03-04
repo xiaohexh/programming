@@ -1,0 +1,164 @@
+001	enter OpenNextImage at     5124
+002	D:\pics\测试图片\解码性能对比用图\jpeg\较小图\2.JPG
+003	enter OpenImage at      5124
+004	In OpenImage send On_ImageRefresh at        5124
+005	enter LoadImage at      5124
+006	leave OpenImage at      5124
+007	leave OpenNextImage at      5124
+008	decode began at     5124
+009	enter DrawClient at     5140
+010	leave DrawClient at     5155
+011	decode end at       5265
+012	in LoadImage send On_ImageRefresh at        5265
+013	leave loadImage at      5265
+014	enter DrawClient at     5280
+015	leave DrawClient at     5327
+016	==================================================================================
+017	enter OpenNextImage at      6280
+018	D:\pics\测试图片\解码性能对比用图\jpeg\较小图\3.JPG
+019	enter OpenImage at      6280
+020	In OpenImage send On_ImageRefresh at        6280
+021	enter LoadImage at      6280
+022	leave OpenImage at      6296
+023	leave OpenNextImage at      6296
+024	decode began at     6296
+025	enter DrawClient at     6296
+026	leave DrawClient at     6312
+027	decode end at       6437
+028	in LoadImage send On_ImageRefresh at        6437
+029	enter DrawClient at     6437
+030	leave loadImage at      6452
+031	leave DrawClient at     6499
+032	==================================================================================
+033	enter OpenNextImage at      7265
+034	D:\pics\测试图片\解码性能对比用图\jpeg\较小图\4.JPG
+035	enter OpenImage at      7265
+036	In OpenImage send On_ImageRefresh at        7265
+037	leave OpenImage at      7265
+038	leave OpenNextImage at      7265
+039	enter LoadImage at      7265
+040	decode began at     7265
+041	enter DrawClient at     7265
+042	leave DrawClient at     7296
+043	decode end at       7421
+044	in LoadImage send On_ImageRefresh at        7421
+045	enter DrawClient at     7421
+046	leave loadImage at      7437
+047	leave DrawClient at     7483
+048	==================================================================================
+049	enter OpenNextImage at      8062
+050	D:\pics\测试图片\解码性能对比用图\jpeg\较小图\5.JPG
+051	enter OpenImage at      8062
+052	In OpenImage send On_ImageRefresh at        8062
+053	leave OpenImage at      8062
+054	leave OpenNextImage at      8062
+055	enter LoadImage at      8062
+056	decode began at     8062
+057	enter DrawClient at     8062
+058	leave DrawClient at     8077
+059	decode end at       8202
+060	in LoadImage send On_ImageRefresh at        8202
+061	enter DrawClient at     8202
+062	leave DrawClient at     8265
+063	leave loadImage at      8280
+064	==================================================================================
+065	enter OpenNextImage at      8811
+066	D:\pics\测试图片\解码性能对比用图\jpeg\较小图\6.JPG
+067	enter OpenImage at      8811
+068	In OpenImage send On_ImageRefresh at        8811
+069	leave OpenImage at      8811
+070	leave OpenNextImage at      8811
+071	enter LoadImage at      8811
+072	decode began at     8811
+073	enter DrawClient at     8811
+074	leave DrawClient at     8843
+075	decode end at       8968
+076	in LoadImage send On_ImageRefresh at        8968
+077	leave loadImage at      8968
+078	enter DrawClient at     8968
+079	leave DrawClient at     9030
+080	==================================================================================
+081	enter OpenNextImage at      9515
+082	D:\pics\测试图片\解码性能对比用图\jpeg\较小图\7.JPG
+083	enter OpenImage at      9515
+084	In OpenImage send On_ImageRefresh at        9515
+085	leave OpenImage at      9515
+086	leave OpenNextImage at      9515
+087	enter LoadImage at      9515
+088	decode began at     9530
+089	enter DrawClient at     9530
+090	leave DrawClient at     9546
+091	decode end at       9671
+092	in LoadImage send On_ImageRefresh at        9671
+093	enter DrawClient at     9671
+094	leave loadImage at      9671
+095	leave DrawClient at     9733
+096	==================================================================================
+097	enter OpenNextImage at      10171
+098	D:\pics\测试图片\解码性能对比用图\jpeg\较小图\8.JPG
+099	enter OpenImage at      10171
+100	In OpenImage send On_ImageRefresh at        10171
+101	leave OpenImage at      10171
+102	leave OpenNextImage at      10171
+103	enter LoadImage at      10171
+104	decode began at     10186
+105	enter DrawClient at     10186
+106	leave DrawClient at     10202
+107	decode end at       10311
+108	in LoadImage send On_ImageRefresh at        10311
+109	leave loadImage at      10311
+110	enter DrawClient at     10311
+111	leave DrawClient at     10374
+112	==================================================================================
+113	enter OpenNextImage at      10811
+114	D:\pics\测试图片\解码性能对比用图\jpeg\较小图\9.JPG
+115	enter OpenImage at      10811
+116	In OpenImage send On_ImageRefresh at        10811
+117	enter LoadImage at      10811
+118	leave OpenImage at      10811
+119	leave OpenNextImage at      10811
+120	enter DrawClient at     10811
+121	decode began at     10811
+122	leave DrawClient at     10843
+123	decode end at       10952
+124	in LoadImage send On_ImageRefresh at        10952
+125	leave loadImage at      10952
+126	enter DrawClient at     10952
+127	leave DrawClient at     11030
+128	==================================================================================
+129	enter OpenNextImage at      11452
+130	D:\pics\测试图片\解码性能对比用图\jpeg\较小图\10.JPG
+131	enter OpenImage at      11452
+132	In OpenImage send On_ImageRefresh at        11452
+133	leave OpenImage at      11452
+134	leave OpenNextImage at      11452
+135	enter LoadImage at      11452
+136	decode began at     11452
+137	enter DrawClient at     11468
+138	leave DrawClient at     11483
+139	decode end at       11593
+140	in LoadImage send On_ImageRefresh at        11593
+141	enter DrawClient at     11593
+142	leave loadImage at      11608
+143	leave DrawClient at     11655
+144	==================================================================================
+145	enter OpenNextImage at      12077
+146	enter DrawClient at     12077
+147	leave DrawClient at     12108
+148	==================================================================================
+149	enter OpenNextImage at      13124
+150	D:\pics\测试图片\解码性能对比用图\jpeg\较小图\1.jpg
+151	enter OpenImage at      13124
+152	In OpenImage send On_ImageRefresh at        13124
+153	leave OpenImage at      13124
+154	leave OpenNextImage at      13124
+155	enter LoadImage at      13124
+156	decode began at     13124
+157	enter DrawClient at     13139
+158	leave DrawClient at     13155
+159	decode end at       13358
+160	in LoadImage send On_ImageRefresh at        13358
+161	leave loadImage at      13358
+162	enter DrawClient at     13358
+163	leave DrawClient at     13405
+164	==================================================================================

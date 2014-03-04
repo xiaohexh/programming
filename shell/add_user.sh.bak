@@ -1,0 +1,17 @@
+#!/bin/bash
+# 设计一个shell程序，添加一个新组为class1，然后添加属于这个组的30个用户，用>    户名的形式为stdxx，其中xx从01到30。
+
+groupadd class1
+for i in {9901..9930}
+do
+   xx=`echo $i | sed s/99//g`
+#echo $xx
+   useradd -g class1 std$xx
+   echo std$xx | passwd std$xx --stdin
+   echo -e "user std$xx password is std$xx" >> /root/newuser.txt
+done
+
+for i in {01, 02}
+do
+	echo $i
+done
