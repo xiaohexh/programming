@@ -11,7 +11,7 @@ int main()
 	for (iter = vecNum.begin(); iter != vecNum.end();)
 	{
 		std::cout << *iter << ", ";
-		vecNum.erase(iter);
+		iter = vecNum.erase(iter);
 	}
 
 	return 0;
