@@ -5,7 +5,6 @@
 
 int main()
 {
-
 	int fd = open("dprintf", O_CREAT | O_RDWR | O_APPEND, 0644);
 	if (fd == -1)
 		return 1;
