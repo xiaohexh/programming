@@ -24,6 +24,8 @@ int main(int argc, char** argv)
 		return 1;
 	}
 
+	sleep(5);  //used to debug
+
 	const char* ip = argv[1];
 	int			port = atoi(argv[2]);
 	int			backlog = atoi(argv[3]);
@@ -45,9 +47,13 @@ int main(int argc, char** argv)
 	printf("After listen ...\n");
 	assert(ret != -1);
 
+	int		count = 0;
 	while (!stop)
 	{
-		printf("In while ... \n");
+		printf("In while, count:%d... \n", ++ count);
+		if (20 == count)
+			break;
+
 		sleep(1);
 	}
 
