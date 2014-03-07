@@ -3,6 +3,8 @@ CFLAGS = -c
 CFLAGS += -g
 OBJ_FILE = hello.o
 
+names = a b c d
+
 Name = "Chris"
 Name += "Xiao"
 
@@ -37,11 +39,16 @@ endif
 		@echo "CFLAG variable is not defined"
     endif
 
+#   names = a b c d
+    files := $(foreach n,$(names),$(n).o)
+#echo $(files)
+
+#    RetStr = 
 #    OrigStr = "on the street"
-    RetStr = $(subst ee,EE,street)
+#    RetStr = $(subst ee,EE,street)
 #@echo "string after replacement:$(RetStr)"
-	echo $(RetStr)
-	echo Hello
+#echo $(RetStr)
+#	echo Hello
 
 .PHONY : clean
 clean:
