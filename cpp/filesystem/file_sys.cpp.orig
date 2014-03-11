@@ -1,0 +1,30 @@
+#include "file_sys.h"
+#include <iostream>
+#include <string.h>
+
+int FileSys::MakeDir(const char *pPath, mode_t iMode)
+{
+
+}
+
+int FileSys::StrtoK(char* str, const char* sep)
+{
+    char *name[3];
+
+    int	count = 0;
+    int	index = -1;
+    char* p = str;
+        while ((p[in]=strtok(buf,","))!=NULL) {
+            buf=p[in];
+            while ((p[in]=strtok(buf," "))!=NULL) {
+                in++;
+                buf=NULL;
+            }
+            p[in++]="***"; //表现分割
+            buf=NULL;
+        }
+    std::cout << "name[0]:" << name[0] << std::endl;
+    std::cout << "name[1]:" << name[1] << std::endl;
+    std::cout << "name[2]:" << name[2] << std::endl;
+    return count;
+}
