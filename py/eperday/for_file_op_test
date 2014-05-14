@@ -1,0 +1,5 @@
+import linecache
+This is a test file
+mysql -h localhost -proot
+add zabbix
+programm

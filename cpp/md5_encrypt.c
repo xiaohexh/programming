@@ -4,7 +4,7 @@
 
 int main()
 {
-	unsigned char	*data = "Hello";
+	unsigned char	*data = "xiaohe";
 	unsigned char	md[16];
 	int				i = 0;
 	char			tmp[3] = {'\0'};
