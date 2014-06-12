@@ -1,0 +1,47 @@
+SRCEXTS = .c .C .cc .cpp .c++ .cxx .cp
+HDREXTS = .h .H .hh .hpp .h++ .hxx .hp
+LIBS = 
+CC = gcc
+CXX = g++
+CTAGS = ctags
+
+LIBPATH=${HOME}/wiwo/libs
+
+INCLUDES=-I/usr/local/include -I/usr/include -I../wiwo/common -I../message -I/usr/include/libxml2
+LIBS=-L/usr/local/lib -L/usr/lib -lc -lprotobuf -luuid -laio -lxml2  -L$(LIBPATH) -lmessage -L$(LIBPATH) -lwiwo_common -lpthread -luuid -lxml2 `mysql_config --libs`
+CFLAGS = -g -Wall -c $(INCLUDES) -D_DEBUG_MEM
+OFLAGS = -g -Wall $(LIBS)
+
+SRCDIR = .
+SRCS = $(wildcard $(SRCDIR)/*.cc $(SRCDIR)/*.cpp)
+OBJS = $(addsuffix .o, $(basename $(SRCS)))
+HEADS = $(addsuffix .h, $(basename $(SRCS)))
+TARGET = ListVmInstance
+
+INSTALL_PATH = .
+
+APP = $(TARGET)
+
+all : $(APP)
+
+show :
+	@echo $(CFLAGS)
+
+$(APP) : $(OBJS)
+	$(CXX) $^ -o $@ $(OFLAGS)
+
+%.o:%.cc
+	$(CXX) $(CFLAGS) -o $@ $<
+
+%.o:%.cpp
+	$(CXX) $(CFLAGS) -o $@ $<
+
+clean :
+	rm -Rf *.o
+
+veryclean : clean
+	rm ../common/*.o
+
+install:
+	mkdir -p $(INSTALL_PATH); cp $(TARGET) $(INSTALL_PATH)
+
