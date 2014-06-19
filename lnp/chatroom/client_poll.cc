@@ -1,4 +1,4 @@
-#define _GNU_SOURCE 1
+#define _GNU_SOURCE 1  // to use POLLRDHUP
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
