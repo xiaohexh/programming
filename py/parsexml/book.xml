@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<books>
+    <book>
+        <author>zoer</author>
+        <author>shawhe</author>
+        <author>
+			<first_name>John</first_name>
+			<last_name>Hurry</last_name>
+		</author>
+        <title>think in java</title>
+        <content>this is a good book</content>
+    </book>
+    <book>
+        <author>naughty</author>
+        <title>gone with the wind</title>
+        <content>this is a good book 2</content>
+    </book>
+    <book>
+        <author>cc</author>
+        <content>this is a good book 3</content>
+	</book>
+</books>
