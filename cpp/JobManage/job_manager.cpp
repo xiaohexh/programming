@@ -5,20 +5,20 @@
 namespace jobmang
 {
 
-	JobContainer::JobMap* JobContainer::_jobMap = new JobContainer::JobMap();
+	JobManager::JobMap* JobManager::_jobMap = new JobManager::JobMap();
 
-	JobContainer::JobContainer()
+	JobManager::JobManager()
 	{
 	}
 
-	JobContainer* JobContainer::getInstance()
+	JobManager* JobManager::getInstance()
 	{
         if (!_instance)
-            _instance = new JobContainer();
+            _instance = new JobManager();
 	    return _instance;
 	}
 
-	void JobContainer::updateJob(const JobDescript& job)
+	void JobManager::updateJob(const JobDescript& job)
 	{
 		_jobMap[job.id] = job;
 	}
