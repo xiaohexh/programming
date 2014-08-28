@@ -14,5 +14,5 @@ fp.write(' Hello\n')
 fp.close()
 
 #os.system('"uwarn@ucloud.cno')
-cmd = '/root/ums/UMSAccess/sendemail.sh xiaohexh@hotmail.com "Hello" \'I am testing\' "uwarn@ucloud.cn" "uwarn" '
+cmd = '/root/ums/UMSAccess/sendemail.sh xiaohexh@hotmail.com "Hello" \'I am testing\' "uwarn@xiaohe.cn" "uwarn" '
 print cmd
